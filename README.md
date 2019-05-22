@@ -25,11 +25,4 @@ rmdir /s /q .git
 
 3. Importar el proyecto en Eclipse y empezar a trabajar.
 
-## Eclipse
-
-Ejecutar el siguiente comando dentro de la raíz del proyecto para configurar el proyecto para Eclipse:
-
-```bash
-mvn eclipse:eclipse
-```
 
