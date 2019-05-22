@@ -5,7 +5,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>dad.template</groupId>
-	<artifactId>JavaFX</artifactId>
+	<artifactId>Maven</artifactId>
 	<version>1.0.0</version>
 
 	<name>MavenProjectTemplate</name>
