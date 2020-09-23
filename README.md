@@ -6,6 +6,16 @@ Crear un proyecto Java con Maven:
 mvn archetype:generate -DarchetypeArtifactId=maven-archetype-quickstart
 ```
 
+Añadir lo siguiente dentro de la etiqueta `project` del fichero de configuración del proyecto `pom.xml`:
+
+```xml
+<properties>
+  <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  <maven.compiler.source>1.8</maven.compiler.source>
+  <maven.compiler.target>1.8</maven.compiler.target>
+</properties>
+```
+
 Convertir en un proyecto Eclipse:
 
 ```bash
