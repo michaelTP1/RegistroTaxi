@@ -13,15 +13,29 @@ Añadir lo siguiente dentro de la etiqueta `project` del fichero de configuraci�
   <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   <maven.compiler.source>1.8</maven.compiler.source>
   <maven.compiler.target>1.8</maven.compiler.target>
+  <exec.mainClass>path.to.your.MainClass</exec.mainClass>
 </properties>
 ```
 
 > En el ejemplo se está compilando para Java 8 (1.8); debemos cambiarlo a la versión de Java que queramos (14, por ejemplo).
 
+Los siguiente comandos deben ejecutarse desde dentro del directorio del proyecto (donde se encuentra el ficheor `pom.xml`:
+
+Compilar el proyecto:
+
+```bash
+mvn compile
+```
+
+Ejecutar el proyecto (clase especificada en `exec.mainClass`):
+
+```bash
+mvn exec:java
+```
+
 Preparar el proyecto para poder importarlo en Eclipse:
 
 ```bash
-cd <proyecto>
 mvn eclipse:eclipse
 ```
 
