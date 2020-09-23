@@ -18,7 +18,7 @@ Añadir lo siguiente dentro de la etiqueta `project` del fichero de configuraci�
 
 > En el ejemplo se está compilando para Java 8 (1.8); debemos cambiarlo a la versión de Java que queramos (14, por ejemplo).
 
-Convertir en un proyecto Eclipse:
+Preparar el proyecto para poder importarlo en Eclipse:
 
 ```bash
 cd <proyecto>
