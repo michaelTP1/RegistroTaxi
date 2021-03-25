@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.calendarfx.view.YearMonthView?>
+
+
+<YearMonthView fx:id="view" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/15.0.1">
+	<!-- TODO Add Nodes -->
+</YearMonthView>
